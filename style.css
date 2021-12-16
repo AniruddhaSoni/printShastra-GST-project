@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  color: blueviolet;
+}
+.container {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub_container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.price_input,
+.total_bill {
+  min-width: 200px;
+}
+.price_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price_input input {
+  /* width: 80%; */
+  height: 40px;
+  border-radius: 8px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid blueviolet;
+}
+.price_input input:focus {
+  border: 2px solid rgb(176, 131, 218);
+}
+.price_input button {
+  height: 30px;
+  width: 60px;
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.price_input button:hover {
+  background-color: rgb(152, 85, 214);
+}
+.amount_field {
+  display: flex;
+  justify-content: space-between;
+}
+.border {
+  width: 5px;
+  justify-self: stretch;
+  border-radius: 15px;
+  background-color: blueviolet;
+}
+.total_bill {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  height: 1px;
+  margin: 2px 0;
+  background-color: blueviolet;
+}

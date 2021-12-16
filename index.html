@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrintShastra Assignment</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub_container">
+        <form class="price_input">
+          <h1>Enter the Price</h1>
+          <input type="number" name="price" id="price" value="0" />
+          <button type="submit" class="submit">submit</button>
+        </form>
+        <span class="border"></span>
+        <div class="total_bill">
+          <h1>Total Bill</h1>
+          <div class="initial_price amount_field">
+            <span class="lable">base amount</span>
+            <span class="value">0</span>
+          </div>
+          <div class="cgst amount_field">
+            <span class="lable">
+              cgst
+              <span class="percent">(2.5%)</span>
+            </span>
+            <span class="value">0</span>
+          </div>
+          <div class="sgst amount_field">
+            <span class="lable"
+              >sgst
+              <span class="percent">(2.5%)</span>
+            </span>
+            <span class="value">0</span>
+          </div>
+          <span class="line"></span>
+          <div class="total_amount amount_field">
+            <span class="lable">Total price (Rs.)</span>
+            <span class="value">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
